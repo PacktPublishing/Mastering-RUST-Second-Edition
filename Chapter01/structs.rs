@@ -1,5 +1,5 @@
 
-struct Player { 
+struct Player {
     name: String,
     iq: u8,
     friends: u8,
@@ -15,11 +15,12 @@ fn bump_player_score(mut player: Player, score: u16) {
     println!("Score: {}", player.score);
 }
 
-fn main() { 
-   let player = Player { name: "Alice".to_string(),
+fn main() {
+    let name = "Alice".to_string();
+    let player = Player { name,
                           iq: 171,
-                          friends: 134, 
+                          friends: 134,
                           score: 1129 };
 
    bump_player_score(player, 120);
-}  
+}
