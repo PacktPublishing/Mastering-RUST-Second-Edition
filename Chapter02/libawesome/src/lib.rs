@@ -1,8 +1,15 @@
 
-#[allow(unused_variables, dead_code)]
 fn pow(base: i64, exponent: usize) -> i64 {
-    unimplemented!();
+    let mut res = 1;
+    if exponent == 0 {
+        return 1;
+    }
+    for i in 0..exponent {
+        res *= base as i64;
+    }
+    res
 }
+
 #[cfg(test)]
 mod tests {
     use super::pow;
