@@ -1,7 +1,7 @@
 // unit_test_demo/src/lib.rs
 
 // function we want to test
-fn sum(a: i8, b: i8) -> i8 {
+pub fn sum(a: i8, b: i8) -> i8 {
     a + b
 }
 
