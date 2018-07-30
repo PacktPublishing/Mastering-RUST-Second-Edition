@@ -1,0 +1,13 @@
+[package]
+name = "criterion_demo"
+version = "0.1.0"
+authors = ["Rahul Sharma <rsconceptx@gmail.com>"]
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.1.2"
+
+[[bench]]
+name = "fibonacci"
+harness = false
