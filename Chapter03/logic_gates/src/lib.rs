@@ -1,6 +1,8 @@
+//! # Demo example crate for Chapter 3
 //! This is a logic gates simulation crate built to demonstrate writing unit tests, integration tests,
 //! documentation tests.
 
+#![doc(html_logo_url = "https://d30y9cdsu7xlg0.cloudfront.net/png/411962-200.png")]
 
 /// Implements a boolean `and` gate taking as input two bits and returning a bit as its
 /// output
