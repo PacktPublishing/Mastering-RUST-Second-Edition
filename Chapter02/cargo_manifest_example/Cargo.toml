@@ -1,0 +1,29 @@
+# cargo_manifest_example/Cargo.toml
+# We can write comments with `#`
+
+[package]
+name = "cargo-metadata-example"
+version = "1.2.3"
+description = "An example of Cargo metadata"
+documentation = "https://docs.rs/dummy_crate"
+license = "MIT"
+readme = "README.md"
+keywords = ["example", "cargo", "mastering"]
+authors = ["Jack Daniels <jack@danie.ls>", "Iddie Ezzard <iddie@ezzy>"]
+build = "build.rs"
+
+[package.metadata.settings]
+default-data-path = "/var/lib/example"
+
+[features]
+default=["mysql"]
+
+[build-dependencies]
+syntex = "^0.58"
+
+[dependencies]
+serde = "1.0"
+serde_json = "1.0"
+time = { git = "https://github.com/rust-lang/time", branch = "master" }
+mysql = { version = "1.2", optional = true }
+sqlite = { version = "2.5", optional = true }
