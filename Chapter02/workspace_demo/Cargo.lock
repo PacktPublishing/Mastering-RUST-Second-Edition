@@ -1,0 +1,11 @@
+[[package]]
+name = "app"
+version = "0.1.0"
+dependencies = [
+ "my_crate 0.1.0",
+]
+
+[[package]]
+name = "my_crate"
+version = "0.1.0"
+
