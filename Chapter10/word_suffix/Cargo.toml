@@ -1,0 +1,10 @@
+[package]
+name = "word_suffix"
+version = "0.1.0"
+authors = ["Rahul Sharma <creativcoders@gmail.com>"]
+
+[dependencies]
+pyo3 = "0.4"
+
+[lib]
+crate-type = ["cdylib"]

@@ -1,0 +1,7 @@
+[package]
+name = "c_from_rust"
+version = "0.1.0"
+authors = ["Rahul Sharma <creativcoders@gmail.com>"]
+
+[build-dependencies]
+cc = "1.0"
