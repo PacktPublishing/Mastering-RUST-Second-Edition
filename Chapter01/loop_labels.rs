@@ -1,6 +1,5 @@
 // loop_labels.rs
-
-fn lame_subtraction(a: i32, b: i32) -> i32 {
+fn silly_sub(a: i32, b: i32) -> i32 {
     let mut result = 0;
     'increment: loop {
         if result == a {
@@ -24,6 +23,6 @@ fn lame_subtraction(a: i32, b: i32) -> i32 {
 fn main() {
     let a = 10;
     let b = 4;
-    let result = lame_subtraction(a, b);
+    let result = silly_sub(a, b);
     println!("{} minus {} is {}", a, b, result);
 }

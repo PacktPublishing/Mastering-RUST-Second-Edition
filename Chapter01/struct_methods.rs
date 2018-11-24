@@ -3,8 +3,7 @@
 struct Player {
   name: String,
   iq: u8,
-  friends: u8,
-  score: u8,
+  friends: u8
 }
 
 impl Player {
@@ -12,17 +11,23 @@ impl Player {
         Player {
             name: name.to_string(),
             iq: 100,
-            friends: 100,
-            score: 100
+            friends: 100
         }
     }
 
     fn get_friends(&self) -> u8 {
         self.friends
     }
+
+    fn set_friends(&mut self, count: u8) {
+        self.friends = count;
+    }
 }
 
 fn main() {
-    let player = Player::with_name("Dave");
+    let mut player = Player::with_name("Dave");
+    player.set_friends(23);
     println!("{}'s friends count: {}", player.name, player.get_friends());
+    // another way to call instance methods.
+    let _ = Player::get_friends(&player);
 }
