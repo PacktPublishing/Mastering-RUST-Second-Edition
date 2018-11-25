@@ -1,8 +1,0 @@
-[package]
-name = "rust_from_c"
-version = "0.1.0"
-authors = ["Rahul Sharma <rsconceptx@gmail.com>"]
-
-[lib]
-name = "stringutils"
-crate-type = ["dylib"]

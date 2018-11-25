@@ -1,9 +1,0 @@
-[package]
-name = "edit_distance"
-version = "0.1.0"
-authors = ["Rahul Sharma <rsconceptx@gmail.com>"]
-build = "build.rs"
-
-[build-dependencies]
-bindgen = "0.43.0"
-cc = "1.0"
