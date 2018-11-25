@@ -1,0 +1,9 @@
+[package]
+name = "env_logger_demo"
+version = "0.1.0"
+authors = ["Rahul Sharma <creativcoders@gmail.com>"]
+
+[dependencies]
+user_auth = { path = "../user_auth" }
+log = { version = "0.4.6", features = ["release_max_level_error", "max_level_trace"] }
+env_logger = "0.6.0"

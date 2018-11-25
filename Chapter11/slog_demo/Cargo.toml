@@ -1,0 +1,10 @@
+[package]
+name = "slog_demo"
+version = "0.1.0"
+authors = ["Rahul Sharma <creativcoders@gmail.com>"]
+
+[dependencies]
+rand = "0.5.5"
+slog = "2.4.1"
+slog-async = "2.3.0"
+slog-json = "2.2.0"

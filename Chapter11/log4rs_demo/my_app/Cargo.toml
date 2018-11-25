@@ -1,0 +1,9 @@
+[package]
+name = "my_app"
+version = "0.1.0"
+authors = ["Rahul Sharma <rsconceptx@gmail.com>"]
+
+[dependencies]
+log4rs = "0.8.0"
+log = "0.4"
+my_lib = { path = "../my_lib"}

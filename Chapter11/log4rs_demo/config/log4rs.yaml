@@ -1,0 +1,23 @@
+# config/log4rs.yaml
+
+refresh_rate: 5 seconds
+
+root:
+  level: error
+  appenders:
+    - stdout
+
+appenders:
+  stdout:
+    kind: console
+  my_lib_append:
+    kind: file
+    path: "log/my_lib.log"
+    encoder:
+      pattern: "{d} - {m}{n}"
+
+loggers:
+  my_lib:
+    level: debug
+    appenders:
+      - my_lib_append
