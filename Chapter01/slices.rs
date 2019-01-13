@@ -1,5 +1,7 @@
+// slices.rs
+
 fn main() {
-    let mut numbers: [u8; 4] = [1,2,3,4];
+    let mut numbers: [u8; 4] = [1, 2, 3, 4];
     {
         let all: &[u8] = &numbers[..];
         println!("All of them: {:?}", all);

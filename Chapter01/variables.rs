@@ -1,9 +1,4 @@
 // variables.rs
-
-fn increase_by(mut val: u32, how_much: u32) {
-    val += how_much;
-    println!("You made {} points", val);
-}
  
 fn main() {
     let mut target = "world";
@@ -12,7 +7,4 @@ fn main() {
     greeting = "How are you doing";
     target = "mate";
     println!("{}, {}", greeting, target);
-
-    let score = 2048;
-    increase_by(score, 30);
 }

@@ -5,7 +5,7 @@ struct Color(u8, u8, u8);
 fn main() {
     let white = Color(255, 255, 255);
     
-    // or you can pull them out by index
+    // You can pull them out by index
     let red = white.0;
     let green = white.1;
     let blue = white.2;
@@ -16,10 +16,10 @@ fn main() {
 
     let orange = Color(255, 165, 0);
 
-    // you can also destructure the fields directly, that's so cool
+    // You can also destructure the fields directly
     let Color(r, g, b) = orange;
     println!("R: {}, G: {}, B: {} (orange)", r, g, b);
 
-    // can also ignore fields while destructuring
+    // Can also ignore fields while destructuring
     let Color(r, _, b) = orange;
 }
