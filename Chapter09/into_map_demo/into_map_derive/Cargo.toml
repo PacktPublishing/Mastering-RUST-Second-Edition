@@ -1,0 +1,13 @@
+[package]
+name = "into_map_derive"
+version = "0.1.0"
+authors = ["Rahul Sharma <creativcoders@gmail.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "0.15.22", features = ["extra-traits"] }
+quote = "0.6.10"
+into_map = { path="../into_map" }
