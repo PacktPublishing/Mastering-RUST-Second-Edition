@@ -1,0 +1,27 @@
+/* livemd/app/styles.css */
+
+html, body, section, .container {
+    height: 100%;
+} 
+
+#editor {
+    font-family: 'Aleo', serif;
+    font-size: 2rem;
+    color: white;
+    border: none;
+    overflow: auto;
+    outline: none;
+    resize: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, .6);
+    background-color: rgb(47,79,79);
+}
+
+#preview {
+    overflow: auto;
+    border: 5px;
+    border-left: 1px solid grey;
+}
