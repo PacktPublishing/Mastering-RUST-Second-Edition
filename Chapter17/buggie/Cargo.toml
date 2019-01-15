@@ -1,0 +1,5 @@
+[package]
+name = "buggie"
+version = "0.1.0"
+authors = ["Rahul Sharma <creativcoders@gmail.com>"]
+edition = "2018"

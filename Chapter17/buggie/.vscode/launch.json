@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Buggie demo",
+            "type": "gdb",
+            "request": "launch",
+            "target": "target/debug/buggie",
+            "cwd": "${workspaceRoot}",
+            "arguments": "4",
+            "gdbpath": "rust-gdb",
+            "printCalls": true
+        }
+    ]
+}
