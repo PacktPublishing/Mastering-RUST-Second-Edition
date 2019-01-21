@@ -1,7 +1,7 @@
 // variables.rs
  
 fn main() {
-    let mut target = "world";
+    let target = "world";
     let mut greeting = "Hello";
     println!("{}, {}", greeting, target);
     greeting = "How are you doing";

@@ -1,3 +1,4 @@
+// structs.rs
 
 struct Player {
     name: String,

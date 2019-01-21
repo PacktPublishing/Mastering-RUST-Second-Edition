@@ -1,9 +1,9 @@
 // struct_methods.rs
 
 struct Player {
-  name: String,
-  iq: u8,
-  friends: u8
+    name: String,
+    iq: u8,
+    friends: u8
 }
 
 impl Player {

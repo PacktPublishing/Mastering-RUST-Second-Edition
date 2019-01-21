@@ -10,7 +10,7 @@ fn main() {
         200 => println!("Success"),
         404 => println!("Not Found"),
         other => {
-            println!("Request failed with code: {}", error_str);
+            println!("Request failed with code: {}", other);
             // get response from cache
         }
     }

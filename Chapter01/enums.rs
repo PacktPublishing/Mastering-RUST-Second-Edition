@@ -1,6 +1,6 @@
 // enums.rs
 
-
+#[derive(Debug)]
 enum Direction { 
     N, 
     E, 

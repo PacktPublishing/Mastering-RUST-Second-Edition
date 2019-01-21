@@ -5,6 +5,6 @@ fn main() {
   if rust_is_awesome { 
     println!("Indeed"); 
   } else { 
-    println!("Well, you should try rust !"); 
+    println!("Well, you should try Rust !"); 
   }
 }

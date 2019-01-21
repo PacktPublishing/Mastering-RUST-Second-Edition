@@ -1,4 +1,5 @@
 // loop_labels.rs
+
 fn silly_sub(a: i32, b: i32) -> i32 {
     let mut result = 0;
     'increment: loop {

@@ -1,5 +1,5 @@
 
 #[test] 
-fn basic_test() { 
-    assert!(true)
+fn basic_test() {
+    assert!(true);
 }
