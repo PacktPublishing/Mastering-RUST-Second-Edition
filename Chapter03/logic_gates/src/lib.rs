@@ -24,8 +24,7 @@ pub fn xor(a: u8, b: u8) -> u8 {
 
 #[cfg(test)]
 mod tests {
-    use {xor, and};
-    // use super::{and, xor};
+    use crate::{xor, and};
     #[test]
     fn test_and() {
         assert_eq!(1, and(1, 1));

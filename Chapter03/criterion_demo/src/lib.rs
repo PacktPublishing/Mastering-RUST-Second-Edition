@@ -19,13 +19,3 @@ pub fn fast_fibonacci(nth: usize) -> u64 {
     }
     c
 }
-
-#[cfg(test)]
-mod tests {
-    use {slow_fibonacci, fast_fibonacci};
-    #[test]
-    fn test_exponent() {
-        let b = 11;
-        assert_eq!(fast_fibonacci(b), slow_fibonacci(b));
-    }
-}

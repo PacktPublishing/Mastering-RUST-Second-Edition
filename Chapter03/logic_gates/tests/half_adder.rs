@@ -1,7 +1,5 @@
 // logic_gates/tests/half_adder.rs
 
-extern crate logic_gates;
-
 use logic_gates::{and, xor};
 
 pub type Sum = u8;

@@ -1,7 +1,6 @@
 // bench_example/src/lib.rs
 
 #![feature(test)]
-
 extern crate test;
 
 use test::Bencher;
