@@ -1,0 +1,9 @@
+[package]
+name = "r2d2_demo"
+version = "0.1.0"
+authors = ["Rahul Sharma <creativcoders@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+r2d2 = "0.8.3"
+r2d2_postgres = "0.14.0"
