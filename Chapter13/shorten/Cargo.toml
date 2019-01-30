@@ -1,0 +1,11 @@
+[package]
+name = "shorten"
+version = "0.1.0"
+authors = ["Rahul Sharma <creativcoders@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+quicli = "0.4"
+structopt = "0.2"
+reqwest = "0.9"
+serde = "1"
