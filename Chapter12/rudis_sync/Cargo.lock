@@ -1,0 +1,21 @@
+[[package]]
+name = "lazy_static"
+version = "1.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "resp"
+version = "1.0.2"
+source = "git+https://github.com/creativcoder/resp#b415e0bf0347a2669b774d48fab68728559f4b10"
+
+[[package]]
+name = "rudis_sync"
+version = "0.1.0"
+dependencies = [
+ "lazy_static 1.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "resp 1.0.2 (git+https://github.com/creativcoder/resp)",
+]
+
+[metadata]
+"checksum lazy_static 1.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "a374c89b9db55895453a74c1e38861d9deec0b01b405a82516e9d5de4820dea1"
+"checksum resp 1.0.2 (git+https://github.com/creativcoder/resp)" = "<none>"

@@ -1,0 +1,10 @@
+[package]
+name = "rudis_sync"
+version = "0.1.0"
+authors = ["Rahul Sharma <creativcoders@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+lazy_static = "1.2.0"
+resp = { git = "https://github.com/creativcoder/resp" }
+
