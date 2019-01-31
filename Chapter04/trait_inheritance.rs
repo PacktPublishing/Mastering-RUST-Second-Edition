@@ -13,19 +13,19 @@ struct TeslaRoadster {
     release_date: u16
 }
 
+impl TeslaRoadster {
+    fn new(model: &str, release_date: u16) -> Self {
+        Self { model: model.to_string(), release_date }
+    }
+}
+
 impl Car for TeslaRoadster {
     fn model(&self) -> String {
         "Tesla Roadster I".to_string()
     }
 }
 
-impl Vehicle for TeslaRoadster {
-    fn get_price(&self) -> u64 {
-        200_000
-    }
-}
-
 fn main() {
-    let my_roadster = TeslaRoadster { model: "Tesla Roadster II".to_string(), release_date: 2020 };
+    let my_roadster = TeslaRoadster::new("Tesla Roadster II", 2020);
     println!("{} is priced at ${}", my_roadster.model, my_roadster.get_price());
 }

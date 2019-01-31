@@ -1,27 +1,31 @@
 // trait_objects.rs
- 
+
 use std::fmt::Debug;
 
-#[derive(Debug)] 
-struct Point { 
-    x: i8, 
-    y: i8 
-} 
+#[derive(Debug)]
+struct Square(f32);
+#[derive(Debug)]
+struct Rectangle(f32, f32);
 
-#[derive(Debug)] 
-struct ThreeDimPoint { 
-    x: i8, 
-    y: i8, 
-    z: i8 
+trait Area: Debug {
+    fn get_area(&self) -> f32; 
 }
 
-fn main() { 
-    let point = Point { x: 1, y: 3}; 
-    let three_d_point = ThreeDimPoint { x: 3, y: 5, z: 9 }; 
+impl Area for Square {
+    fn get_area(&self) -> f32 {
+        self.0 * self.0
+    }
+}
 
-    let mut x: &Debug = &point as &Debug;
-    println!("1: {:?}", x); 
+impl Area for Rectangle {
+    fn get_area(&self) -> f32 {
+        self.0 * self.1
+    }
+}
 
-    x = &three_d_point; 
-    println!("2: {:?}", x); 
+fn main() {
+    let shapes: Vec<&dyn Area> = vec![&Square(3f32), &Rectangle(4f32, 2f32)];
+    for s in shapes {
+        println!("{:?}", s);
+    }
 }

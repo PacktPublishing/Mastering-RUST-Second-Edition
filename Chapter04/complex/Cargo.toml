@@ -1,6 +1,7 @@
 [package]
 name = "complex"
 version = "0.1.0"
-authors = ["Rahul Sharma <rsconceptx@gmail.com>"]
+authors = ["Rahul Sharma <creativcoders@gmail.com>"]
+edition = "2018"
 
 [dependencies]
