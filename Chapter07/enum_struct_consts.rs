@@ -13,7 +13,7 @@ impl Inventory {
 
 fn put_into_inventory(inventory: &mut Inventory, item: String, count: Option<u32>) {
     if let Some(c) = count {
-        inventory.inner.insert(item, count);
+        inventory.inner.insert(item, c);
     } else {
         inventory.inner.insert(item, Inventory::DEFAULT_COUNT);
     }
