@@ -15,7 +15,5 @@ fn main() {
         tx.send(i).unwrap();
     }
 
-    drop(tx);
-
     join_handle.join().unwrap();
 }

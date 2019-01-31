@@ -1,0 +1,10 @@
+[package]
+name = "actor_demo"
+version = "0.1.0"
+authors = ["Rahul Sharma <creativcoders@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+actix = "0.7.9"
+futures = "0.1.25"
+tokio = "0.1.15"
