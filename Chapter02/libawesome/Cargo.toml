@@ -1,6 +1,0 @@
-[package]
-name = "libawesome"
-version = "0.1.0"
-authors = ["creativcoder <>"]
-
-[dependencies]

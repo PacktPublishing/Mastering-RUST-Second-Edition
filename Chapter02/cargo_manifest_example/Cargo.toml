@@ -1,5 +1,5 @@
 # cargo_manifest_example/Cargo.toml
-# We can write comments with `#`
+# We can write comments with `#` within a manifest file
 
 [package]
 name = "cargo-metadata-example"
@@ -11,6 +11,7 @@ readme = "README.md"
 keywords = ["example", "cargo", "mastering"]
 authors = ["Jack Daniels <jack@danie.ls>", "Iddie Ezzard <iddie@ezzy>"]
 build = "build.rs"
+edition = "2018"
 
 [package.metadata.settings]
 default-data-path = "/var/lib/example"

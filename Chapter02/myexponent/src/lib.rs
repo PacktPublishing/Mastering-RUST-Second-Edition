@@ -1,10 +1,11 @@
+// myexponent/src/lib.rs
 
-fn pow(base: i64, exponent: usize) -> i64 {
+pub fn pow(base: i64, exponent: usize) -> i64 {
     let mut res = 1;
     if exponent == 0 {
         return 1;
     }
-    for i in 0..exponent {
+    for _ in 0..exponent {
         res *= base as i64;
     }
     res
