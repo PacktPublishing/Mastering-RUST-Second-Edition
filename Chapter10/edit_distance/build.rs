@@ -1,8 +1,5 @@
 // edit_distance/build.rs
 
-extern crate bindgen;
-extern crate cc;
-
 use std::path::PathBuf;
 
 fn main() {
@@ -12,10 +9,8 @@ fn main() {
 
     cc::Build::new()
         .file("lib/levenshtein.c")
-        .shared_flag(true)
-        .static_flag(false)
         .out_dir(".")
-        .compile("levenshtein.so");
+        .compile("levenshtein");
 
     let bindings = bindgen::Builder::default()
         .header("lib/levenshtein.h")

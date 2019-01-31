@@ -2,7 +2,7 @@
 
 mod bindings;
 
-use bindings::levenshtein;
+use crate::bindings::levenshtein;
 use std::ffi::CString;
 
 pub fn levenshtein_safe(a: &str, b: &str) -> u32 {

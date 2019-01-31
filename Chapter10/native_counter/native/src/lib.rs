@@ -1,3 +1,5 @@
+// native_counter/native/src/lib.rs
+
 #[macro_use]
 extern crate neon;
 
