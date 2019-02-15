@@ -45,9 +45,9 @@ With the following software and hardware list you can run all code files present
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
 
 ### Related products
-* Hands-On Concurrency with Rust [[Packt]](https://www.packtpub.com/application-development/hands-concurrency-rust ?utm_source=github&utm_medium=repository&utm_campaign=9781788399975 ) [[Amazon]](https://www.amazon.com/dp/1788399978)
+* Hands-On Concurrency with Rust [[Packt]](https://www.packtpub.com/application-development/hands-concurrency-rust) [[Amazon]](https://www.amazon.com/dp/1788399978)
 
-* Hands-On Functional Programming in RUST [[Packt]](https://www.packtpub.com/application-development/hands-functional-programming-rust?utm_source=github&utm_medium=repository&utm_campaign=9781788839358 ) [[Amazon]](https://www.amazon.com/dp/1788839358)
+* Hands-On Functional Programming in RUST [[Packt]](https://www.packtpub.com/application-development/hands-functional-programming-rust) [[Amazon]](https://www.amazon.com/dp/1788839358)
 
 
 ## Get to Know the Authors
