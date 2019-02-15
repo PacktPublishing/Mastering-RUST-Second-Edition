@@ -50,7 +50,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 * Hands-On Functional Programming in RUST [[Packt]](https://www.packtpub.com/application-development/hands-functional-programming-rust?utm_source=github&utm_medium=repository&utm_campaign=9781788839358 ) [[Amazon]](https://www.amazon.com/dp/1788839358)
 
 
-## Get to Know the Author
+## Get to Know the Authors
 **Rahul Sharma**
 is passionately curious about teaching programming. He has been writing software for the last two years. He got started with Rust with his work on Servo, a browser engine by Mozilla Research as part of his GSoC project. At present, he works at AtherEnergy, where he is building resilient cloud infrastructure for smart scooters. His interests include systems programming, distributed systems, compilers and type theory. He is also an occasional contributor to the Rust language and does mentoring of interns on the Servo project by Mozilla.
 
