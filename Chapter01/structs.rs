@@ -8,7 +8,7 @@ struct Player {
 }
 
 fn bump_player_score(mut player: Player, score: u16) {
-    player.score += 120;
+    player.score += score;
     println!("Updated player stats:");
     println!("Name: {}", player.name);
     println!("IQ: {}", player.iq);
