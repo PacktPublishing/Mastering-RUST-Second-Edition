@@ -1,6 +1,7 @@
 // super_player/src/main.rs
 
 mod media;
+use crate::media::Playable;
 
 struct Audio(String);
 struct Video(String);
