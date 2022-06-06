@@ -5,7 +5,7 @@ authors = ["Rahul Sharma <creativcoders@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-tokio = "0.1.13"
+tokio = "1.8.4"
 futures = "0.1.25"
 lazy_static = "1.2.0"
 resp = { git = "https://github.com/creativcoder/resp" }
