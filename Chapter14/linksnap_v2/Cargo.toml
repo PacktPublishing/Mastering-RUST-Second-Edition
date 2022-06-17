@@ -18,5 +18,5 @@ url = "1.7.2"
 lazy_static = "1.2.0"
 log = "0.4.6"
 chrono = { version="0.4" }
-diesel = {version = "1.3.3", features = ["extras", "postgres", "r2d2"]}
+diesel = {version = "1.4.6", features = ["extras", "postgres", "r2d2"]}
 dotenv = "0.13.0"
